@@ -1,0 +1,19 @@
+name: com.github.consonant.consonant-test-schemas.01
+classes:
+  lane:
+    properties:
+      title:
+        type: text
+      cards:
+        type: list
+        elements:
+          type: reference
+          class: card
+          bidirectional: lane
+  card:
+    properties:
+      title:
+        type: text
+      lane:
+        type: reference
+        class: card
