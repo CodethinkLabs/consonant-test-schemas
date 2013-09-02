@@ -16,4 +16,4 @@ classes:
         type: text
       lane:
         type: reference
-        class: card
+        class: lane
