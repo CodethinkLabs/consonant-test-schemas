@@ -6,6 +6,7 @@ classes:
         type: text
       cards:
         type: list
+        optional: true
         elements:
           type: reference
           class: card
