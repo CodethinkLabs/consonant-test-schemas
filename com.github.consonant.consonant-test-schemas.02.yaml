@@ -47,6 +47,7 @@ classes:
         type: raw
         content-type-regex:
           - ^text\/.+$
+        optional: true
   milestone:
     properties:
       title:
